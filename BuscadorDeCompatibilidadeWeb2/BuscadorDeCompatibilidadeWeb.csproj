@@ -35,7 +35,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -190,8 +190,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\BuscadorDeCompatibilidadeWeb-dev-as - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\BuscadorDeCompatibilidadeWeb20171231025741 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\BuscadorDeCompatibilidadeWeb20171231030719 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\BuscadorDeCompatibilidadeWeb20180112075704 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml">
       <SubType>Designer</SubType>
     </None>
